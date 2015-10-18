@@ -7,33 +7,31 @@ body {
 	width: 100%;
 	margin:0 auto;
 	padding: 0;
-	border: 1px solid gray;
-	height: 100vh;
 }
 
 #navBar {
 	width:100%;
 	height:60px;
+	margin: 0;
 	/*background-color: #BB6B00;*/
-	background-color: #86A076;
+	background-color: #331F10;
 	padding:0;
 	position: fixed;
-
-	-webkit-box-shadow: 0px 6px 16px 0px rgba(50, 50, 50, 0.65);
-	-moz-box-shadow:    0px 6px 16px 0px rgba(50, 50, 50, 0.65);
-	box-shadow:         0px 6px 16px 0px rgba(50, 50, 50, 0.65);
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 }
 
 #logo {
-	height:40px;
-	width:100px;
+	/*height:40px;
+	width:100px;*/
 	float:left;
 	margin-left: 14%;
 	/*border: 1px solid blue;*/
-	margin-top:10px;
+	margin-top:14px;
 	font-family: "Lobster";
 	color: white;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 nav {
@@ -85,10 +83,13 @@ nav ul a {
 }
 
 #content {
-	width: 960px;
-	height:100vh;
+	width: 100%;
 	margin:0 auto;
-	border: 1px solid black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	/*background-color: rgb(247,109,11);*/
+	/*border: 1px solid black;*/
 }
 
 #banner {
@@ -98,3 +99,70 @@ nav ul a {
 	height:550px;
 	/*border: 1px solid red;*/
 }
+
+.section {
+	width:960px;
+	margin: 0 auto;
+}
+
+.left {
+	width: 300px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	/*background-color: rgb(255,255,255);*/
+	border-radius: 10px;
+	float: left;
+	margin:0;
+	padding-top: 10px;
+	background-color: rgb(247,109,11);
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.middle {
+	width: 300px;
+	height: 350px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0;
+	background-color: rgb(247,109,11);
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.right {
+	width: 300px;
+	height: 350px;
+	border-radius: 10px;
+	float: right;
+	margin:0;
+	background-color: rgb(247,109,11);
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.icon1 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/679.png");
+	margin:0 auto;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: "Lobster";
+	text-align: center;
+}
+
+.divider {
+	width: 100%;
+	height:8px;
+	background-color: #331F10;
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
