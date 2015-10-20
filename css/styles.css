@@ -175,21 +175,21 @@ nav ul a {
 .icon1 {
 	height: 64px;
 	width: 64px;
-	background-image: url("../img/679.png");
+	background-image: url("../img/caution.png");
 	margin:15px auto;
 }
 
 .icon2 {
 	height: 64px;
 	width: 64px;
-	background-image: url("../img/679.png");
+	background-image: url("../img/combIcon.png");
 	margin:15px auto;
 }
 
 .icon3 {
 	height: 64px;
 	width: 64px;
-	background-image: url("../img/679.png");
+	background-image: url("../img/sheild.png");
 	margin:15px auto;
 }
 
