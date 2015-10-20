@@ -77,9 +77,11 @@ nav ul a {
 }
 
 #footer {
-	background-color: #FFAB37;
+	/*background-color: #FFAB37;*/
+	background-color: rgb(247,109,11);
 	height: 50px;
 	width: 100%;
+	margin-top: 20px;
 }
 
 #content {
@@ -93,7 +95,31 @@ nav ul a {
 }
 
 #banner {
-	background-image: url("../img/banner2.jpg");
+	background-image: url("../img/combBanner.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+#sitbanner {
+	background-image: url("../img/hiveEntranceBanner.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+#solbanner {
+	background-image: url("../img/honeyBee1.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+#helpbanner {
+	background-image: url("../img/hives.jpg");
 	background-repeat: none;
 	width: 100%;
 	height:550px;
@@ -107,14 +133,14 @@ nav ul a {
 
 .left {
 	width: 300px;
-	height: 350px;
+	height: 450px;
 	/*border: 1px solid black;*/
 	/*background-color: rgb(255,255,255);*/
 	border-radius: 10px;
 	float: left;
 	margin:0;
-	padding-top: 10px;
-	background-color: rgb(247,109,11);
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
 	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
@@ -122,11 +148,12 @@ nav ul a {
 
 .middle {
 	width: 300px;
-	height: 350px;
+	height: 450px;
 	border-radius: 10px;
 	display: inline-block;
 	margin: 0;
-	background-color: rgb(247,109,11);
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
 	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
@@ -134,11 +161,12 @@ nav ul a {
 
 .right {
 	width: 300px;
-	height: 350px;
+	height: 450px;
 	border-radius: 10px;
 	float: right;
 	margin:0;
-	background-color: rgb(247,109,11);
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
 	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
@@ -148,18 +176,39 @@ nav ul a {
 	height: 64px;
 	width: 64px;
 	background-image: url("../img/679.png");
-	margin:0 auto;
+	margin:15px auto;
+}
+
+.icon2 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/679.png");
+	margin:15px auto;
+}
+
+.icon3 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/679.png");
+	margin:15px auto;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 24px;
 	font-family: "Lobster";
 	text-align: center;
+	color: #331F10;
+}
+
+p {
+	margin-left:10px;
+	margin-right: 10px;
+
 }
 
 .divider {
 	width: 100%;
-	height:8px;
+	height:5px;
 	background-color: #331F10;
 	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
