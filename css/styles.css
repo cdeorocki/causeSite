@@ -28,10 +28,10 @@ body {
 	float:left;
 	margin-left: 14%;
 	/*border: 1px solid blue;*/
-	margin-top:14px;
+	margin-top:10px;
 	font-family: "Lobster";
 	color: white;
-	font-size: 22px;
+	font-size: 32px;
 }
 
 nav {
@@ -189,6 +189,27 @@ nav ul a {
 	margin:15px auto;
 }
 
+.icon4 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/.png");
+	margin:15px auto;
+}
+
+.icon5 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/.png");
+	margin:15px auto;
+}
+
+.icon6 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/.png");
+	margin:15px auto;
+}
+
 h3 {
 	font-size: 24px;
 	font-family: "Lobster";
@@ -238,4 +259,7 @@ p {
 	margin:0;
 	background-color: #FFAB37;
 	margin-bottom: 40px;
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
 }
